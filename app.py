@@ -6,10 +6,10 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# Leer el dataset
+# dataset
 df = pd.read_csv("vehicles_us.csv")
 
-# Título principal
+# Título
 st.header("🚗 Análisis de vehículos en venta 🚗")
 
 # Mostrar una vista previa de los datos
